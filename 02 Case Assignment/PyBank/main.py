@@ -32,6 +32,7 @@ for i in range(len(total_profit)-1):
     profit_change =(total_profit[i+1] - total_profit[i])
     total_change.append(profit_change)
     #print(total_change)
+    #"${:,.2f}".format(1500.2)
 
 increase = max(total_change)
 decrease = min(total_change)
@@ -45,14 +46,15 @@ decrease_index = total_change.index(decrease)
 # =============================================================================
 average_profit = sum(total_profit)/ len(months)
 average_change = sum(total_change)/len(total_change)
-# print(len(months))
-# print(sum(total_profit))
-# print(int(average_profit))
-#print(sum(total_change)/len(total_change))
-
+print(f'Financial Analysis\n====================')
+print(f'Total months in period: {len(months)}')
+print(f'Total profit: {sum(total_profit)}')
+print(f'Average Profit: {int(average_profit)}')
+print(f'Average Profit Change: {sum(total_change)/len(total_change)}')
+print(f'Greatest Increase in Profits:{months[increase_index + 1]}  {increase}')
+print(f"Greatest decrease in Profits:{months[decrease_index + 1]}  {decrease}")
 
 # =============================================================================
-print(f"{months[increase_index + 1]} {increase}")
-print(f"{months[decrease_index + 1]} {decrease}")
+
 # =============================================================================
 # ============================================================================
