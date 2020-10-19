@@ -1,7 +1,7 @@
 ## The conditional puzzle
 
-### Instructions
+### Method
 
-* Look through the examples and figure out what line will print.
+* In this mini assignment I looked through the examples and figured out what line will print.
 
-* Do not run the code at first, see if you can follow the thought process and guess.
+* Comments have been included on lines that will print for each conditional

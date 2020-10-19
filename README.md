@@ -1,2 +1,2 @@
 # python_challenge
-* Contains python case assignments and mini assignments
+* Contains my solutions to python case assignments and mini assignments
